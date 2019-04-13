@@ -1,4 +1,4 @@
-(module CherryMX_Choc_Hotswap_1side (layer F.Cu) (tedit 5CA8102D)
+(module CherryMX_Choc_Hotswap_1side (layer F.Cu) (tedit 5CB1AF31)
   (attr smd)
   (fp_text reference SW2 (at 7 8.1) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -36,10 +36,8 @@
   (fp_line (start -2.28 7.5) (end -2.28 8.2) (layer B.SilkS) (width 0.15))
   (pad 2 smd rect (at 5.6 -5.08 180) (size 2 2) (layers B.Cu B.Paste B.Mask))
   (pad "" np_thru_hole circle (at -3.81 -2.54 180) (size 3 3) (drill 3) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at -5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 5.08 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at 5.5 0 90) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole circle (at -5.5 0 90) (size 1.9 1.9) (drill 1.9) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 5.35 0 90) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at -5.35 0 90) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 0 90) (size 4 4) (drill 4) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 2.54 -5.08 180) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad 1 smd rect (at -6.9 -2.54 180) (size 2 2) (layers B.Cu B.Paste B.Mask))
